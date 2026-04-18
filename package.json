@@ -1,0 +1,22 @@
+{
+  "name": "smc-query",
+  "version": "1.0.0",
+  "description": "SMC 3.0 终端地址本查询",
+  "main": "dist/smc-client.js",
+  "types": "dist/smc-client.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "smc",
+    "huawei",
+    "video-conference"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "typescript": "^5.0.0"
+  }
+}
